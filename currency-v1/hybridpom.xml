@@ -45,7 +45,7 @@
 				<apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>				
-				<apigee.serviceaccount.file>${hybridAccount}</apigee.serviceaccount.file>
+				<apigee.bearer>${hybridBearer}</apigee.bearer>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>override</apigee.options>
@@ -61,7 +61,7 @@
 				<apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>
-				<apigee.serviceaccount.file>${hybridAccount}</apigee.serviceaccount.file>
+				<apigee.bearer>${hybridBearer}</apigee.bearer>
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
 				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
