@@ -42,9 +42,10 @@
 			<properties>
 				<apigee.profile>test</apigee.profile>
 				<apigee.env>test</apigee.env>
-				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
+				<apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
+				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>				
+				<apigee.serviceaccount.file>${hybridAccount}</apigee.serviceaccount.file>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>override</apigee.options>
@@ -57,11 +58,10 @@
 			<properties>
 				<apigee.profile>prod</apigee.profile>
 				<apigee.env>prod</apigee.env>
-				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
+				<apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${env.APIGEE_ORG}</apigee.org>
-				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
-				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
+				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>
+				<apigee.serviceaccount.file>${hybridAccount}</apigee.serviceaccount.file>
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
 				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
