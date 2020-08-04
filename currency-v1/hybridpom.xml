@@ -46,6 +46,7 @@
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>				
 				<apigee.serviceaccount.file>${hybridServiceAccount}</apigee.serviceaccount.file>
+				<apigee.authtype>oauth</apigee.authtype> 
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>override</apigee.options>
@@ -62,6 +63,7 @@
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>
 				<apigee.serviceaccount.file>${hybridServiceAccount}</apigee.serviceaccount.file>
+				<apigee.authtype>oauth</apigee.authtype> 
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
 				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
