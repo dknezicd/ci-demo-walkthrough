@@ -45,7 +45,7 @@
 				<apigee.hosturl>${env.APIGEE_API_HOST}</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>				
-				<apigee.bearer>${hybridBearer}</apigee.bearer>
+				<apigee.serviceaccount.file>${hybridServiceAccount}</apigee.serviceaccount.file>
 				<apigee.username>${env.APIGEE_USERNAME}</apigee.username>
 				<apigee.password>${env.APIGEE_PASSWORD}</apigee.password>
 				<apigee.options>override</apigee.options>
@@ -61,7 +61,7 @@
 				<apigee.hosturl>https://apigee.googleapis.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_PROJECT}</apigee.org>
-				<apigee.bearer>${hybridBearer}</apigee.bearer>
+				<apigee.serviceaccount.file>${hybridServiceAccount}</apigee.serviceaccount.file>
 				<apigee.options>override</apigee.options>
 				<apigee.override.delay>5</apigee.override.delay>
 				<api.northbound.domain>${env.API_DOMAIN_PROD}</api.northbound.domain>
@@ -77,7 +77,7 @@
 				<plugin>
 					<groupId>io.apigee.build-tools.enterprise4g</groupId>
 					<artifactId>apigee-edge-maven-plugin</artifactId>
-					<version>2.0.1</version>
+					<version>2.0.3</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
